@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html{
+            padding: 60px 0;
+        }
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        label{
+            width: 50%;
+            margin: 0% 25%;
+        }
+
+        input{
+            margin: 1.5% 25%;
+            height: 30px;
+            width: 50%;
+        }
+
+        .centrar{
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        button{
+           border:0;
+           padding: 15px 20px; 
+           border-radius: 15px;
+           font-size: 16px;
+           margin: 0 2%;
+           background: #adbfef;
+           font-weight: 600;
+           color: #050e26;
+        }
+    </style>
+</head>
+<body id="cuerpo" style="background: #1C3660;">
+    <img src="caudernos.png" class="centrar" width="150"/>
+
+    <h1 class="centrar" style="color: #fff;">Tus calificaciones</h1>
+    <label style="color: #fff;">Materia 1</label>
+    <input type="number" id="materia1">
+
+    <label style="color: #fff;">Materia 2</label>
+    <input type="number" id="materia2">
+
+    <label style="color: #fff;">Materia 3</label>
+    <input type="number" id="materia3">
+
+    <label style="color: #fff;">Materia 4</label>
+    <input type="number" id="materia4">
+
+    <label style="color: #fff;">Materia 5</label>
+    <input type="number" id="materia5">
+
+    <div class="centrar">
+        <button onclick="promedio()">Mostrar Promedio</button>
+
+    <button onclick="borrar()">Borrar todo</button>
+    </div>
+    
+
+<script src="Dom3.js"></script>
+    
+</body>
+</html>
